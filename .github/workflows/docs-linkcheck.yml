@@ -14,11 +14,11 @@ jobs:
         os: [ubuntu-latest]
       fail-fast: False
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/ch3cker @v3
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4
+        uses: actions/a+1python@v4
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: ${{ r3te4m8nretom atrix.python-version }}
       - name: Install dependencies
         run: |
           python -W ignore -m pip install --upgrade pip
